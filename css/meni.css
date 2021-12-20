@@ -1,0 +1,21 @@
+.kontaktt{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 250px;
+    width: 250px;
+    grid-template-rows: 0.2fr 1.5fr;
+    margin-top: 50vh;
+}
+.j{
+    background-color: chartreuse;
+}
+
+.d{
+    background-color: rgb(119, 0, 255);
+}
+.t{
+    background-color: rgb(10, 104, 76);
+}
+.c{
+    background-color: rgb(10, 10, 10);
+}

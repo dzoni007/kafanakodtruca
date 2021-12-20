@@ -1,0 +1,52 @@
+.pocetna{
+    background-image: none;
+
+    height: auto;
+   
+}
+.pocetna .kontakt a{
+    color: black;
+    background-color: white;
+    text-decoration: underline; 
+}
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0cm;
+    left: 0;
+    
+    background-color: rgb(46, 45, 45);
+
+}
+.navbar {
+opacity: 1;
+background-color: rgb(46, 45, 45);
+position:fixed;
+}
+
+.kontaktt{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    height: 250px;
+    width: 250px;
+    grid-template-rows: 0.2fr 1.5fr 2fr 0.2fr 1.2fr 1.4fr 1.6fr;
+    margin-top: 30vh;
+    margin-left: 50vw;
+    grid-template-areas: 
+    "informacije poruka poruka"
+    "informacije lime mojaForma"
+    "informacije lprezime mojaForma"
+    "informacije lemail mojaForma"
+    "informacije lbroj mojaForma"
+    "informacije lporuka mojaForma"
+    "informacije check mojaForma"
+}
+.informacije{
+    background-color: chartreuse;
+}
+.mojaForma{
+    background-color: chocolate;
+}
+.poruka{
+    background-color: crimson;
+}
