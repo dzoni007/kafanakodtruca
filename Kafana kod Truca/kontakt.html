@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kafana kod Truca</title>
+    <script src="https://kit.fontawesome.com/24db951367.js" crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="css/pocetna.css">
+    <link rel="stylesheet" href="css/kontakt.css">
+</head>
+<body  class="bodi" style="background-color: rgba(161,128,98,255);">
+    <div class="pocetna">
+        <div id="navbar" class="navbar">
+            <a href="index.html" class="logo">
+                <img src="slike/logo.jpg" alt="Logo" class="logo-img">
+        
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">O nama</a></li>
+                    <li ><a href="meni.html">Meni</a></li>
+                    <li><a href="galerija.html">Galerija</a></li>
+                    <li class="kontakt"><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        
+        </div>
+    </div>
+
+       
+<div class="telo">
+    
+    <form class="forma" >
+
+    <div class="kontaktt" id="nikola">
+        <p class="poruka">KONTAKT</p>
+        <div class="informacije">
+            <p><i class="fas fa-info"></i>   Informacije</p>
+            <p><i class="fas fa-clock"></i>   Ponedeljak - Nedelja 07:00 - 20:00</p>
+            <p><i class="fas fa-phone"></i>   +381 63 621 703</p>
+            <p><i class="fas fa-envelope"></i>   kafanakodtruca@gmail.com</p>    
+        
+        </div>
+
+        
+            
+                <label class="llime">Ime</label>
+                <input class="bime" type="text" name="ime"  id="ime">
+            
+            
+                <label class="lprezime">Prezime</label>
+                <input id="prezime" class="bprezime" type="text" name="prezime">
+           
+                <label class="lemail">Email</label>
+                <input class="bemail" type="email" name="email" id="mejl">
+            
+                <label class="lbroj">Broj telefona</label>
+                <input class="bbroj" type="text" name="telefon" id="broj">
+           
+            
+                <label class="lporuka">Poruka</label>
+                <textarea id="poruka" class="bporuka" name="poruka" rows="5"> </textarea>
+            
+           
+                <input id="checkbox" type="checkbox" class="checkbox" name="check">
+                <label class="bcheck" onclick="triggerUslove()">Slazem se sa uslovima koriscenja.</label>
+            
+                <button class="bslanje" id="send" onclick="validateForm()" type="button">Posalji</button>
+        
+                <button class="breset" id="reset" onclick="resetForm()" type="button">Reset</button>
+       
+            </div>
+     </form>
+
+       
+   
+       
+            <div class="mapa">
+                <p>Gde se nalazimo</p>
+                <p class="mapica"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2882.8153325816616!2d20.602274315462324!3d43.73516297911864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47570708ad5ebb85%3A0x3eeea08189927762!2sKafana%20kod%20Truca!5e0!3m2!1sen!2srs!4v1640186928376!5m2!1sen!2srs" 
+                  height="300" width=100% style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+
+            </div>
+
+
+
+
+
+
+        </div>
+        <footer class="footer">
+            <div class="drustvene-mreze">
+                <a href="https://www.facebook.com/kafanakodtruca/"  target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/kafana_kod_truca/"  target="_blank"><i class="fab fa-instagram-square"></i></a>
+                <p>Copyright &copy; 2021 - KAFANA KOD TRUCA  EPOS</p>            
+            </div>
+            <div class="contact">
+                <span class="f-icon flaticon-phone325"></span>
+                <p><i class="fas fa-info"></i>   Informacije</p>
+                <p><i class="fas fa-clock"></i>   Ponedeljak - Nedelja 07:00 - 20:00</p>
+                <p><i class="fas fa-phone"></i>   +381 63 621 703</p>
+                <p><i class="fas fa-envelope"></i>   kafanakodtruca@gmail.com</p>
+            </div>
+        </footer>
+        <script src="js/kontakt.js"></script>
+    </body>
+</html>

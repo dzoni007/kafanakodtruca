@@ -1,0 +1,144 @@
+.navbar{
+    opacity: 1;
+    overflow: hidden;
+
+}
+.navbar .onama a{
+background-color: rgb(46, 45, 45);  
+color: white; 
+}
+.navbar .galerija a{
+    background-color: white;
+    color: black;
+        
+    }
+body{
+    background-color: rgba(161,128,98,255);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.slider-box{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    width: 500px;
+    height: 50%;    
+    overflow: hidden;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    box-shadow: 0 0 30px 0 rgba(253, 249, 8, 0.884);
+
+}
+#slider{
+    display: inline-flex;
+    width: 100%;
+    transition: 0.9s;
+    
+}
+#slider img{
+    height: 50%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
+.indikatori span{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: #222;
+    cursor: pointer;
+}
+.active{background: rgb(253, 0, 0) !important;}
+
+@media (max-width: 560px) {
+    .slider-box{
+        width: 70%;
+    height: 100%;  
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+/*body{
+    background-color: rgba(161,128,98,255);
+}
+.navbar .onama a{
+    background-color: rgb(46, 45, 45);
+    color: white;
+}
+.navbar .galerija a{
+
+    background-color: white;
+    color: black;
+}
+
+    
+}
+.slider-box{
+    position: relative;
+    width: 70%;
+    height: 70%;    
+    overflow: hidden;
+}
+
+#slider{
+    width: 100%;
+    
+    display: inline-flex;
+    transition: 0.9s;
+   
+}
+.slider-box img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.slider-box .indikatori{
+    position: absolute;
+    left: 50%;
+    bottom:100px;
+    transform: translateX(-50%);
+}
+.indikatori span{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: #222;
+    cursor: pointer;
+}
+.active{background: #fff !important;}
+    
+@media (max-width: 400px) {
+
+    .sredina{
+        width:100vw;
+        height: 100vh;
+        display: flex;
+    flex-direction: row;
+    margin-top: 50px; }
+
+}*/

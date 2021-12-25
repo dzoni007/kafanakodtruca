@@ -1,0 +1,221 @@
+
+.pocetna{
+    background-image: none;
+
+    height: auto;
+   
+}
+.pocetna .kontakt a{
+    color: black;
+    background-color: white;
+}
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0cm;
+    left: 0;
+    
+    background-color: rgb(46, 45, 45);
+
+}
+.navbar {
+opacity: 1;
+background-color: rgb(46, 45, 45);
+position:fixed;
+width: 100%;
+}
+
+/*sad telo stranice*/
+.telo{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    /*margin-left: 40px;
+    margin-right: 40px;*/
+    margin-top: 120px;
+    margin-bottom: 200px;
+width: 100%;
+height: 100%;
+
+
+}
+
+ .kontaktt{
+    background-color: rgb(248, 248, 248);
+   top: 20%;
+    align-items: center;
+    max-width: 500px;
+    display: grid;
+  
+    grid-template-columns: 1.2fr 0.7fr 1fr ;
+    
+    grid-template-rows: 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 1fr 0.8fr 0.5fr ;
+   
+    grid-template-areas: 
+     
+    "poruka poruka poruka "
+    "informacije llime bime"
+    "informacije lprezime bprezime"
+    "informacije lemail bemail"
+    "informacije lbroj bbroj"
+    "informacije lporuka bporuka"
+    "informacije  bcheck checkbox"
+    "informacije bslanje breset";
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 0 30px 0 rgba(253, 139, 8, 0.884);
+    grid-gap: 3px;
+}
+.informacije{
+    background-color: rgb(91, 99, 84);
+    grid-area: informacije;
+    width: 100%;
+    height: 100%;
+}
+
+.poruka{
+    background-color: rgb(255, 255, 255);
+    grid-area: poruka;
+    
+    
+    justify-self: center;
+}
+.llime{
+    grid-area:llime;
+    background-color: rgb(212, 212, 212);
+}
+.bime{
+    grid-area: bime ;
+    
+}
+.lprezime{
+    grid-area: lprezime;
+    background-color: rgb(212, 212, 212);
+
+}
+.bprezime{
+    grid-area: bprezime ;
+}
+.lemail{
+    grid-area: lemail ;
+    background-color: rgb(212, 212, 212);
+
+}
+.bemail{
+    grid-area:bemail ;
+}
+.lbroj{
+    grid-area: lbroj;
+    background-color: rgb(212, 212, 212);
+
+}
+.bbroj{
+    grid-area:bbroj ;
+}
+.lporuka{
+    grid-area: lporuka;
+    background-color: rgb(212, 212, 212);
+    height: 100%;
+}
+.bporuka{
+    grid-area: bporuka;
+}
+.bslanje{
+    grid-area: bslanje;
+    width: 100px;
+    justify-self: center;
+}
+.breset{
+    grid-area: breset;
+    width: 100px;
+    justify-self: center;
+    
+}
+.checkbox{
+    grid-area:checkbox;
+    justify-self: auto;
+    
+    background-color: rgb(212, 212, 212);
+}
+.bcheck{
+    background-color: rgb(212, 212, 212);
+
+    grid-area:bcheck;
+}
+
+.mapa{
+   justify-self: center;
+    align-content: center;
+   margin: 40px;
+   
+    text-align: center;  
+
+    font-size: 29px;
+    box-shadow: 0 0 30px 0 rgba(253, 139, 8, 0.884);
+
+
+}
+
+
+.telo .mapa p{
+padding: 5px;       
+ }
+
+@media only screen and (max-width: 600px) {
+    
+    .kontaktt{
+        background-color: rgb(248, 248, 248);
+       top: 20%;
+        align-items: center;
+        
+      
+        grid-template-columns: 1fr 0.1fr ;
+        
+        grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr  0.2fr 0.2fr ;
+        grid-gap: 0.2fr;
+        grid-template-areas: 
+         
+        "poruka poruka"
+        "informacije informacije"
+        "llime llime"
+        "bime bime"
+        "lprezime lprezime"
+        "bprezime bprezime"
+        "lemail lemail"
+        "bemail bemail"
+        "lbroj lbroj"
+        "bbroj bbroj"
+        "lporuka lporuka"
+        "bporuka bporuka"
+        "bcheck checkbox"
+        "bslanje bslanje"
+        "breset breset" ;
+        
+        
+    }
+    .checkbox{
+        grid-area:checkbox;
+        justify-self: auto;
+        
+        background-color: rgb(163, 162, 162);
+    }
+    .mapa{
+        width: 250px;
+        
+    }
+    .bslanje{
+        grid-area: bslanje;
+        justify-self: center;
+    width: 40%;
+    }
+    .breset{
+        grid-area: breset;
+        width: 40%;
+        justify-self: center;
+        
+}
+
+}
