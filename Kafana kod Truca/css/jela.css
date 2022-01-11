@@ -1,0 +1,133 @@
+body {
+  background-color: rgba(161, 128, 98, 255);
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0cm;
+  left: 0;
+
+  background-color: rgb(46, 45, 45);
+}
+.navbar {
+  opacity: 1;
+  background-color: rgb(46, 45, 45);
+  position: fixed;
+  width: 100%;
+}
+.navbar nav a:hover {
+  color: black;
+  background-color: white;
+}
+.navbar .meni a{
+  background-color: white;
+  color: black;
+
+  }
+
+.sredina {
+  display: grid;
+
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-gap: 10px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  height: 100%;
+  width: 100%;
+  
+
+ 
+}
+.slana{
+  background-color: rgba(207, 111, 0, 0.808);
+display: flex;
+ flex-direction: column;
+  border : 2px solid rgb(255, 255, 255); 
+  box-shadow: 0 0 30px 0 rgba(253, 139, 8, 0.884);
+  /* width: 100%; */
+  
+
+}
+
+.slana:hover{
+  background-color: rgb(250, 192, 137);
+}
+
+.dezerti{
+  background-color: rgba(207, 111, 0, 0.808);
+ 
+  border : 2px solid rgb(255, 255, 255); 
+  box-shadow: 0 0 30px 0 rgba(253, 139, 8, 0.884);
+  display: flex;
+  flex-direction: column;
+  
+}
+.salate{
+  display: flex;
+  flex-direction: column;
+  border : 2px solid rgb(255, 255, 255); 
+  box-shadow: 0 0 30px 0 rgba(253, 139, 8, 0.884);
+  background-color: rgba(207, 111, 0, 0.808);
+
+}
+.salate:hover{
+  background-color: rgb(250, 192, 137); 
+
+}
+.dezerti:hover{
+  background-color: rgb(250, 192, 137); 
+
+}
+.prvi{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+.drugi{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+.treci{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+h3{
+  padding: 10px;
+}
+ul{
+  padding-inline-start: 25px;
+  font-weight: 540;
+ 
+
+}
+.sredina .zadugme{
+  display: flex;
+ flex-direction: column;
+  align-items: center ;
+}
+.sredina #popularna{
+  
+  padding: 10px;
+  border-radius: 10px;
+background-color: rgb(155, 108, 65);
+font-size: 15px;
+left:35% ;
+right: 35%;
+}
+.sredina #popularna:hover{
+  
+  background-color: rgb(250, 192, 137);
+  border: solid 3px rgb(187, 128, 60); 
+}
+
+
+
+
+@media (max-width: 820px) {
+  .sredina {
+    grid-template-columns: 2fr;
+  }
+}
