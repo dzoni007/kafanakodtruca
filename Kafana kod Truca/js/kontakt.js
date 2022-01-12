@@ -46,7 +46,7 @@ console.log(datum);
      '\n'+"Email: "+niz[3]+'\n');
    if(slazesse){ resetForm();
     alert("Poslali ste poruku!"+'\n'+
-    "Vreme slanja poruke: " +datum.getDate()+"."+datum.getMonth()+"."+datum.getFullYear()+". "
+    "Vreme slanja poruke: " +datum.getDate()+"."+(datum.getMonth()+1)+"."+(datum.getFullYear())+". "
     +datum.getHours()+":"+datum.getMinutes()+":"+datum.getSeconds());
    
     return true;
