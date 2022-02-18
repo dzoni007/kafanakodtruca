@@ -1,0 +1,428 @@
+body{
+    background-color: #dfdddd;
+}
+.navFix{
+    top: 0;
+    background: transparent;
+    width: 100%;
+    height: 50px;
+}
+
+.nav-meni{
+    margin: 0;
+    padding: 0;
+}
+.jumbotron{
+    margin: 0;
+    padding: 0;
+}
+.jumbotron-header{
+    padding: 0;
+}
+.nav-sredina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navFix{
+    background-color: rgb(0, 0, 0) !important;
+    width: 100vw;
+    height: auto;
+}
+.navbar-hamburger{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+.a-link{
+    color: white;
+    font-size:  18px;
+    line-height: 2.278;
+}
+.nav-link:hover{
+    color: white;
+    text-decoration: none;
+}
+.navbar-nav li{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    list-style: none;
+}
+.navbar-nav li a{
+    color: blue;
+}
+
+
+
+/*GALERIJA*/
+
+
+
+/* Slideshow container */
+
+  .sredina_slike{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: rgb(13, 27, 230);
+    
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+
+  /*ABOUT US*/
+  .about_us{
+    margin-top: 10vh;
+    margin-right: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .title-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .subtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+  }
+  .image img{
+    width: 90%;
+  }
+
+
+
+
+
+  /*servicesss*/
+.main_services{
+  margin-top: 5vh;
+  margin-right: 25px;
+  margin-right: 25px;
+  margin-bottom: 5vh;
+
+}
+.title-services{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7vh;
+  margin-bottom: 5vh;
+}
+.icon{
+  color: rgb(190, 72, 72);
+  font-size: 30px;
+
+}
+.icon:hover{
+  font-size: 26px;
+  margin: 0 0 20px;
+  color: rgb(4, 184, 169);
+  border-radius: 50%;
+  
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+}
+.holder p:hover{
+  font-size: 15px;
+  margin: 0 0 20px;
+  
+  border-radius: 50%;
+  
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+}
+@media only screen and (max-width: 767px) {
+
+
+}
+.poslovi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.title-poslovi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.meni_galerija{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.works-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.works-block .portfoliolist .portfolio-wrapper {
+  overflow: hidden;
+  position: static;
+  position: relative;
+  background: rgb(177, 177, 177);
+  cursor: pointer;
+  height: auto;
+  width: 100%; 
+margin: 5px;
+}
+.poslovi  img{
+  max-width: 100%;
+  height: 100%;
+  position: relative;
+    overflow: hidden;
+}
+.col-md-4{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.col-md-4:hover {
+background-color: rgb(177, 177, 177);
+border-radius: -5%;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+color: black;
+
+}
+
+.col-md-4:hover .portfolio-wrapper {
+  
+  color: black;
+  
+  }
+.portfolio-wrapper :hover{
+color: rgb(0, 0, 0);
+text-decoration: none;
+  border-radius: 5%;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+
+}
+/*blog*/
+.blog{
+  margin-top:5% ;
+}
+
+
+
+
+/*kontakt*/
+.kontakt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.form-group input{
+  width: 100%;
+  min-height: 40px;
+ 
+}
+
+.form-group textarea{
+  width: 100%;
+  min-height: 100px;
+}
+
+.btn-holder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:5%;
+  
+
+}
+.title-holder{
+  margin-bottom: 5%;
+}
+
+/*mape*/
+.google-map{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.google-map iframe{
+  width: 100%;
+  min-height: 300px;
+  
+}
+
+.contact-info li{
+  display: inline;
+  margin: 20px;
+font-size: large;
+}
+.contact-info {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content:  center;
+}
+@media only screen and (max-width: 700px) {
+.contact-info li{
+  display: block;
+  margin: 5px;
+}
+
+.contact-info li:hover{
+  display: block;
+  color: rgb(68, 68, 194);
+  margin: 5px;
+  font-size: larger;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+
+}
+
+
+}
+.contact-info li:hover{
+  display: inline;
+  color: rgb(68, 68, 194);
+  margin: 20px;
+  font-size: 30px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+
+}
+
+/*footer*/
+footer{
+  background-color: black;
+
+}
+.mainfuter{
+  width: 100vw;
+}
+.futer{
+  margin-top: 5%;
+  
+  border: 0;
+  padding: 0;
+}
+.futer a{
+  font-size: 25px;
+}
+.pravo{
+
+border: 0;
+padding: 0;
+bottom: 0;
+}
+.pravo p{
+  color: rgb(117, 117, 117);
+  background-color: black;
+  padding: 0;
+  border: black;
+  margin: 0;
+  }
+
+
+/*linija*/
+.linija{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
